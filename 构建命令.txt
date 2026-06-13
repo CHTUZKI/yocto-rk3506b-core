@@ -1,0 +1,47 @@
+# HD-RK3506B-CORE 构建命令
+# 架构：meta-rk3506b-custom (BSP) + meta-rockchip-updateimg (update.img)
+# 不使用 meta-rockchip
+
+# ============================================
+# 首次克隆
+# ============================================
+cd /home/xuning/yocto-rk3506b-core
+git submodule update --init --recursive
+
+# ============================================
+# 标准构建
+# ============================================
+unset BB_ENV_EXTRAWHITE
+cd /home/xuning/yocto-rk3506b-core
+source poky/oe-init-build-env build
+bitbake rk3506b-image-minimal-emmc
+
+# 输出
+# tmp/deploy/images/hd-rk3506b-core/update.img
+
+# ============================================
+# 单独重建 U-Boot
+# ============================================
+# cd /home/xuning/yocto-rk3506b-core
+# unset BB_ENV_EXTRAWHITE
+# source poky/oe-init-build-env build
+# bitbake u-boot-rockchip -c cleansstate
+# bitbake u-boot-rockchip
+# bitbake rk3506b-image-minimal-emmc
+
+# ============================================
+# 单独重建内核
+# ============================================
+# cd /home/xuning/yocto-rk3506b-core
+# unset BB_ENV_EXTRAWHITE
+# source poky/oe-init-build-env build
+# bitbake linux-rockchip -c cleansstate
+# bitbake linux-rockchip
+# bitbake rk3506b-image-minimal-emmc
+
+# ============================================
+# 清理镜像
+# ============================================
+# cd /home/xuning/yocto-rk3506b-core
+# source poky/oe-init-build-env build
+# bitbake rk3506b-image-minimal-emmc -c clean

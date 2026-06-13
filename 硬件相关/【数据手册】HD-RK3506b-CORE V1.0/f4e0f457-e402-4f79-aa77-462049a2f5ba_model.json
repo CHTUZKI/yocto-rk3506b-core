@@ -1,0 +1,3263 @@
+[
+    [
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.159,
+                0.205,
+                0.845,
+                0.262
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.393,
+                0.476,
+                0.646,
+                0.525
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.273,
+                0.566,
+                0.764,
+                0.596
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.292,
+                0.616,
+                0.744,
+                0.637
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.775,
+                0.837,
+                0.9,
+                0.856
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.315,
+                0.907,
+                0.681,
+                0.932
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.201,
+                0.849,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.388,
+                0.472,
+                0.648,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.267,
+                0.561,
+                0.767,
+                0.603
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.294,
+                0.616,
+                0.744,
+                0.637
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.774,
+                0.836,
+                0.902,
+                0.858
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.317,
+                0.906,
+                0.682,
+                0.934
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.451,
+                0.098,
+                0.55,
+                0.117
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.139,
+                0.864,
+                0.893
+            ],
+            "angle": 0,
+            "content": "<table><tr><td colspan=\"2\">变更内容:</td></tr><tr><td colspan=\"2\">2024-12-13 创建本文档。</td></tr><tr><td>编制:Cao Jun2024年12月13日</td><td>审核:年 月 日</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.946,
+                0.506,
+                0.957
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.45,
+                0.097,
+                0.551,
+                0.119
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.037,
+                0.361,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.359,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.847,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.495,
+                0.085,
+                0.544,
+                0.104
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.132,
+                0.114,
+                0.908,
+                0.129
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.132,
+                0.906,
+                0.146
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.148,
+                0.906,
+                0.162
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.164,
+                0.906,
+                0.179
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.181,
+                0.906,
+                0.195
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.167,
+                0.197,
+                0.906,
+                0.211
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.167,
+                0.132,
+                0.906,
+                0.211
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.13,
+                0.213,
+                0.906,
+                0.229
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.231,
+                0.906,
+                0.246
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.248,
+                0.906,
+                0.262
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.166,
+                0.264,
+                0.906,
+                0.278
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.166,
+                0.231,
+                0.906,
+                0.278
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.13,
+                0.28,
+                0.906,
+                0.296
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.13,
+                0.298,
+                0.906,
+                0.314
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.13,
+                0.317,
+                0.906,
+                0.333
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.13,
+                0.335,
+                0.906,
+                0.351
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.13,
+                0.354,
+                0.906,
+                0.37
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.13,
+                0.298,
+                0.906,
+                0.37
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.945,
+                0.504,
+                0.955
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.495,
+                0.946,
+                0.504,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.085,
+                0.548,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.111,
+                0.237,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.212,
+                0.34,
+                0.23
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.277,
+                0.24,
+                0.298
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.894,
+                0.282,
+                0.908,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.296,
+                0.242,
+                0.317
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.894,
+                0.301,
+                0.908,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.315,
+                0.241,
+                0.335
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.333,
+                0.239,
+                0.354
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.886,
+                0.337,
+                0.907,
+                0.35
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.352,
+                0.242,
+                0.372
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.88,
+                0.354,
+                0.91,
+                0.37
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.13,
+                0.195,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.13,
+                0.346,
+                0.148
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.146,
+                0.196,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.236,
+                0.146,
+                0.346,
+                0.164
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.896,
+                0.152,
+                0.902,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.162,
+                0.196,
+                0.182
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.162,
+                0.333,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.179,
+                0.196,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.178,
+                0.349,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.195,
+                0.196,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.193,
+                0.343,
+                0.214
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.229,
+                0.195,
+                0.249
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.228,
+                0.345,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.245,
+                0.195,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.235,
+                0.245,
+                0.349,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.262,
+                0.195,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.236,
+                0.262,
+                0.344,
+                0.28
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.147,
+                0.037,
+                0.361,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.09,
+                0.251,
+                0.109
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.117,
+                0.912,
+                0.198
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.367,
+                0.205,
+                0.672,
+                0.378
+            ],
+            "angle": 0,
+            "content": "Close-up of a black integrated circuit board with gold pins and multiple micro chips (no visible text or symbols)",
+            "sub_type": "natural_image"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.436,
+                0.392,
+                0.6,
+                0.406
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.129,
+                0.416,
+                0.266,
+                0.433
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.174,
+                0.447,
+                0.86,
+                0.876
+            ],
+            "angle": 0,
+            "content": "```mermaid\ngraph TD\n  A[\"RK3506B/J\"] --> B[\"CPU subsystem\"]\n  A --> C[\"Embedded Memory\"]\n  A --> D[\"Video Processor\"]\n  A --> E[\"External Memory Interface\"]\n\n  B --> B1[\"Cortex-A7 Triple-Core\\n16K/16K L1 I/D Cache\\nNEON/FPU\"]\n  B --> B2[\"Interrupt Controller\"]\n  B --> B3[\"128KB L2 Cache\"]\n  B --> B4[\"Cortex-M0\"]\n\n  C --> C1[\"SYSTEM SRAM(48KB)\"]\n  C --> C2[\"ROM(32KB)\"]\n  C --> C3[\"OTP 1Kbit User Space\"]\n  C --> C4[\"OTP 7Kbit Secure Space\"]\n\n  D --> D1[\"2D Graphic Engine\\nScale/Rotation/Mirror\\n1280x800@60fps\"]\n  D --> D2[\"Video Output Processor\\nRGB Output\\nMCU Output\\n2Lane MIPI Output/1.5Gbps per Lane\\n1280x800@60fps\"]\n\n  E --> E1[\"eMMC4.51/SD3.0/MMC\\n4.51/SDIO3.0 I/F\"]\n  E --> E2[\"QSPI NOR/NAND I/F\"]\n  E --> E3[\"DDR2/DDR3/DDR3L 16bit I/F\"]\n\n  F[\"Connectivity\"] --> F1[\"USB OTG 2.0 x 2\"]\n  F --> F2[\"PWM x 12\"]\n  F --> F3[\"Audio ADC 1CH x 1\"]\n  F --> F4[\"Audio DSM 2CH x 1\"]\n  F --> F5[\"SAI TX 1LANE/RX 1LANE x 2\"]\n  F --> F6[\"SAI TX 1LANE/RX 4LANE x 1\"]\n  F --> F7[\"SAI TX 4LANE/RX 1LANE x 1\"]\n  F --> F8[\"PDM RX 8CH x 1\"]\n  F --> F9[\"SPDIF TX x1\"]\n  F --> F10[\"SPDIF RX x1\"]\n  F --> F11[\"UART x 6\"]\n  F --> F12[\"SPI x 3\"]\n  F --> F13[\"I2C x 3\"]\n  F --> F14[\"RMII x 2\"]\n  F --> F15[\"GPIO x N\"]\n  F --> F16[\"CAN x 2\"]\n  F --> F17[\"ASRC 4CH x 2\"]\n  F --> F18[\"Touch Key x8\"]\n  F --> F19[\"DSMC master x1\"]\n  F --> F20[\"DSMC slave x1\"]\n  F --> F21[\"FLEXBUS x1\"]\n\n  B --> B1\n  B --> B2\n  B --> B3\n  B --> B4\n  B --> B5\n  B --> B6\n  B --> B7\n  B --> B8\n  B --> B9\n```",
+            "sub_type": "flowchart"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.413,
+                0.888,
+                0.625,
+                0.902
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.946,
+                0.506,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.088,
+                0.253,
+                0.111
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.038,
+                0.36,
+                0.05
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.416,
+                0.888,
+                0.622,
+                0.902
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.495,
+                0.947,
+                0.505,
+                0.955
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.165,
+                0.117,
+                0.908,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.134,
+                0.908,
+                0.148
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.15,
+                0.9,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.166,
+                0.908,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.183,
+                0.566,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.44,
+                0.393,
+                0.599,
+                0.406
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.416,
+                0.265,
+                0.435
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.13,
+                0.085,
+                0.264,
+                0.102
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.108,
+                0.908,
+                0.241
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>名称</td><td>主要参数</td></tr><tr><td>主控芯片</td><td>Rockchip RK3506B/J</td></tr><tr><td>CPU</td><td>3个Cortex®-A7内核&amp;1个Cortex-M0内核,运行频率高达1.5GHz16KB L1指令缓存,16KB L1数据缓存,128KB系统L3缓存</td></tr><tr><td>内存</td><td>DDR3L SDRAM(256/512MB可选)</td></tr><tr><td>存储</td><td>NAND Flash(256MB)/eMMC Flash(8GB)</td></tr><tr><td>加密</td><td>软件授权加密</td></tr><tr><td>操作系统</td><td>Linux、RT-Thread</td></tr><tr><td>机械尺寸</td><td>35mm*35mm</td></tr></table>"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.13,
+                0.248,
+                0.265,
+                0.265
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.271,
+                0.908,
+                0.803
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>名称</td><td>硬件特性</td><td>详细说明</td><td>备注</td></tr><tr><td>MIPI DSI</td><td>1路</td><td>2 Lane,每Lane速率最高1.5Gbps最大输出分辨率1280x1280@60fps</td><td rowspan=\"2\">受芯片VOP控制器限制,MIPI DSI和LCD不能同时显示</td></tr><tr><td>LCD</td><td>1路</td><td>支持RGB888/RGB666/RGB565最大输出分辨率1280x1280@60fps</td></tr><tr><td>FLEXBUS</td><td>1路</td><td>灵活的并行FLEXBUS总线接口,可实现高速IO切换应用方向:ADC、DAC、QSPI/FSPI、CIF(Camera Interface)</td><td>ADC和DAC组合方式,最大仅支持28bit</td></tr><tr><td>DSMC</td><td>1路</td><td>支持master模式,支持x8和x16两种工作模式</td><td>主要应用于PSRAM设备通信或者LocalBus的外设通信(如FPGA)。</td></tr><tr><td>DSMC_SLV</td><td>1路</td><td>支持slave模式,支持x8工作模式</td><td>两颗RK3506之间可以通过DSMC和DSMC_SLV接口进行级联。</td></tr><tr><td>以太网</td><td>2路</td><td>支持10/100Mbps自适应</td><td></td></tr><tr><td>USB2.0OTG</td><td>2路</td><td>支持HS/FS/LS,支持480Mbps/12Mbps/1.5Mbps</td><td>USB2.0 OTG0为固件烧录口</td></tr><tr><td>SDMMC</td><td>1路</td><td>支持SDIO3.0协议,以及MMC V4.51协议</td><td>若核心板Flash为EMMC,则此接口不开放</td></tr><tr><td>FSPI</td><td>1路</td><td>支持串行NOR Flash、NAND Flash</td><td>若核心板Flash为NAND,则此接口不开放</td></tr><tr><td>SPI</td><td>3路</td><td>SPI0、SPI1为通用SPI,SPI2为SPIAPB</td><td>SPI2只支持slave模式</td></tr><tr><td>Audio</td><td>—</td><td>4组SAI接口、1组PDM接口、1个SPDIF TX接口、1个SPDIF RX接口;内置ACODEC支持1对差分MIC输入内置Audio DSM功能,满足放音、录音需求</td><td></td></tr><tr><td>SARADC</td><td>4路</td><td>分辨率10bit,采样率1MS/s,输入电压范围:0~1.8V</td><td></td></tr><tr><td>PWM</td><td>11路</td><td>2个PWM控制器,总共12个通道,用户可使用11个通道</td><td></td></tr><tr><td>CAN FD</td><td>2路</td><td>支持CAN 2.0B,CAN FD协议</td><td></td></tr><tr><td>UART</td><td>6路</td><td>1路调试串口,5路通用串口</td><td></td></tr><tr><td>I2C</td><td>3路</td><td>支持100Kbit/s、400Kbit/s和1Mbit/s</td><td></td></tr><tr><td>TOUCHKEY</td><td>8路</td><td>支持多通道CapSense监视器;支持LPF和DC消除</td><td></td></tr><tr><td>JTAG</td><td>2路</td><td>支持SWD模式(两线模式)1路和SDMMC复用,1路和UART0复用</td><td></td></tr><tr><td>GPIO</td><td>86路</td><td>3.3V GPIO 81路,1.8V GPIO 5路</td><td></td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.945,
+                0.505,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.083,
+                0.266,
+                0.104
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.247,
+                0.266,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.13,
+                0.084,
+                0.266,
+                0.102
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.163,
+                0.109,
+                0.556,
+                0.125
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.162,
+                0.128,
+                0.348,
+                0.444
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.13,
+                0.282,
+                0.145
+            ],
+            "angle": 0,
+            "content": "- DDR 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.15,
+                0.296,
+                0.164
+            ],
+            "angle": 0,
+            "content": "eMMC 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.17,
+                0.321,
+                0.184
+            ],
+            "angle": 0,
+            "content": "- Nand Flash 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.189,
+                0.345,
+                0.204
+            ],
+            "angle": 0,
+            "content": "- MIPI DSI 显示驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.21,
+                0.313,
+                0.224
+            ],
+            "angle": 0,
+            "content": "- LCD 显示驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.229,
+                0.293,
+                0.244
+            ],
+            "angle": 0,
+            "content": "- 触摸屏驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.249,
+                0.293,
+                0.264
+            ],
+            "angle": 0,
+            "content": "- 以太网驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.269,
+                0.279,
+                0.283
+            ],
+            "angle": 0,
+            "content": "- USB 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.289,
+                0.282,
+                0.303
+            ],
+            "angle": 0,
+            "content": "- TF卡驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.309,
+                0.281,
+                0.323
+            ],
+            "angle": 0,
+            "content": "- CAN 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.329,
+                0.289,
+                0.343
+            ],
+            "angle": 0,
+            "content": "- UART 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.349,
+                0.27,
+                0.363
+            ],
+            "angle": 0,
+            "content": "- SPI 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.369,
+                0.268,
+                0.383
+            ],
+            "angle": 0,
+            "content": "- IIC 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.388,
+                0.286,
+                0.403
+            ],
+            "angle": 0,
+            "content": "- PWM 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.408,
+                0.28,
+                0.423
+            ],
+            "angle": 0,
+            "content": "- ADC 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.428,
+                0.264,
+                0.442
+            ],
+            "angle": 0,
+            "content": "- IO 驱动",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.13,
+                0.469,
+                0.266,
+                0.486
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.492,
+                0.91,
+                0.63
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>产品型号</td><td>内存(DDR3L)</td><td>存储(EMMC/NAND)</td><td>封装</td><td>工作温度</td><td>等级</td><td>描述</td></tr><tr><td>HD-RK3506J-256F256LI</td><td>256MB</td><td>NAND 256MB</td><td>邮票孔</td><td>-40°C~+85°C</td><td>工业级</td><td>——</td></tr><tr><td>HD-RK3506B-512F8GLW</td><td>512MB</td><td>EMMC 8GB</td><td>邮票孔</td><td>-20°C~+70°C</td><td>宽温级</td><td>——</td></tr><tr><td>HD-RK3506J-512F8GLI</td><td>512MB</td><td>EMMC 8GB</td><td>邮票孔</td><td>-40°C~+85°C</td><td>工业级</td><td>——</td></tr><tr><td>HD-RK3506J-256F256LI-CN</td><td>256MB</td><td>NAND 256MB</td><td>邮票孔</td><td>-40°C~+85°C</td><td>工业级</td><td>国产化</td></tr><tr><td>HD-RK3506J-256F8GLI-CN</td><td>256MB</td><td>EMMC 8GB</td><td>邮票孔</td><td>-40°C~+85°C</td><td>工业级</td><td>国产化</td></tr><tr><td>HD-RK3506J-512F8GLI-CN</td><td>512MB</td><td>EMMC 8GB</td><td>邮票孔</td><td>-40°C~+85°C</td><td>工业级</td><td>国产化</td></tr></table>"
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.128,
+                0.632,
+                0.674,
+                0.647
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.164,
+                0.651,
+                0.607,
+                0.667
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.128,
+                0.632,
+                0.674,
+                0.667
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.651,
+                0.608,
+                0.667
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.13,
+                0.283,
+                0.146
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.202,
+                0.15,
+                0.297,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.202,
+                0.229,
+                0.294,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.203,
+                0.249,
+                0.294,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.2,
+                0.268,
+                0.282,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.2,
+                0.286,
+                0.283,
+                0.305
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.309,
+                0.283,
+                0.325
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.329,
+                0.291,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.348,
+                0.272,
+                0.365
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.2,
+                0.368,
+                0.27,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.17,
+                0.392,
+                0.18,
+                0.399
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.389,
+                0.288,
+                0.404
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.408,
+                0.282,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.199,
+                0.427,
+                0.265,
+                0.444
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.11,
+                0.555,
+                0.125
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.946,
+                0.506,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.083,
+                0.266,
+                0.104
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.17,
+                0.321,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.199,
+                0.209,
+                0.314,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.469,
+                0.265,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.202,
+                0.19,
+                0.346,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.631,
+                0.676,
+                0.647
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.089,
+                0.369,
+                0.108
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.117,
+                0.267,
+                0.134
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.14,
+                0.909,
+                0.182
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>名称</td><td>参数</td><td>最小</td><td>典型</td><td>最大</td><td>单位</td><td>说明</td></tr><tr><td>系统主频</td><td>Flick</td><td>——</td><td>——</td><td>1.5</td><td>GHz</td><td>——</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.188,
+                0.265,
+                0.206
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.212,
+                0.909,
+                0.426
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>名称</td><td>标号</td><td>最小</td><td>典型</td><td>最大</td><td>单位</td><td>说明</td></tr><tr><td>电源输入电压</td><td>VCC5V0_SYS</td><td>4.75</td><td>5</td><td>5.25</td><td>V</td><td>——</td></tr><tr><td rowspan=\"4\">3.3V数字IO</td><td>3V3_VIH</td><td>2.0</td><td>3.3</td><td>3.6</td><td>V</td><td>——</td></tr><tr><td>3V3_VIL</td><td>-0.3</td><td>0</td><td>0.8</td><td>V</td><td>——</td></tr><tr><td>3V3_VOH</td><td>2.4</td><td>3.3</td><td>3.6</td><td>V</td><td>——</td></tr><tr><td>3V3_VOL</td><td>-0.3</td><td>0</td><td>0.4</td><td>V</td><td>——</td></tr><tr><td rowspan=\"4\">1.8V数字IO</td><td>1V8_VIH</td><td>1.2</td><td>1.8</td><td>2.1</td><td>V</td><td>——</td></tr><tr><td>1V8_VIL</td><td>-0.3</td><td>0</td><td>0.63</td><td>V</td><td>——</td></tr><tr><td>1V8_VOH</td><td>1.4</td><td>1.8</td><td>2.1</td><td>V</td><td>——</td></tr><tr><td>1V8_VOL</td><td>-0.3</td><td>0</td><td>0.4</td><td>V</td><td>——</td></tr><tr><td>1.8V模拟IO</td><td>ADC_VIN</td><td>0</td><td>——</td><td>1.8</td><td>V</td><td>——</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.432,
+                0.265,
+                0.45
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.456,
+                0.909,
+                0.555
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>名称</td><td>最小</td><td>典型</td><td>最大</td><td>单位</td><td>说明</td></tr><tr><td>工作环境温度</td><td>-40</td><td>+25</td><td>+85</td><td>°C</td><td>——</td></tr><tr><td>工作环境湿度</td><td>5</td><td>——</td><td>95</td><td>%RH</td><td>本产品并未针对恶劣环境做特殊设计,需根据实际环境评估防潮乃至防尘方法,比如三防漆、灌胶等</td></tr><tr><td>ESD防护等级</td><td>——</td><td>——</td><td>——</td><td>——</td><td>该产品为 ESD 敏感产品,需在底板上设计防护电路,注意防护人体静电,禁止带电热插拔</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.945,
+                0.505,
+                0.955
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.037,
+                0.361,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.088,
+                0.369,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.115,
+                0.266,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.187,
+                0.266,
+                0.208
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.431,
+                0.266,
+                0.452
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.359,
+                0.051
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.089,
+                0.251,
+                0.109
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.117,
+                0.908,
+                0.165
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.162,
+                0.169,
+                0.883,
+                0.185
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.189,
+                0.907,
+                0.221
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.342,
+                0.226,
+                0.696,
+                0.464
+            ],
+            "angle": 0,
+            "content": "128\n1\nDDR\n97\n96\nCPU\n3V3\n30P16\n09SHG\nHD-RK3506B-CORE V1.0\n244-3QD\n1V8\n32\n33\n65\n64",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.439,
+                0.473,
+                0.597,
+                0.487
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.498,
+                0.251,
+                0.518
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.525,
+                0.906,
+                0.574
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.162,
+                0.578,
+                0.722,
+                0.593
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.597,
+                0.908,
+                0.943
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>引脚</td><td>网络标号</td><td>默认功能</td><td>默认功能描述</td><td>引脚电平</td><td>与处理器连接方式</td></tr><tr><td>1</td><td>VCC5V0_SYS</td><td>5V_IN</td><td>核心板 5V 电源输入</td><td>5V</td><td>——</td></tr><tr><td>2</td><td>VCC5V0_SYS</td><td>5V_IN</td><td>核心板 5V 电源输入</td><td>5V</td><td>——</td></tr><tr><td>3</td><td>VCC5V0_SYS</td><td>5V_IN</td><td>核心板 5V 电源输入</td><td>5V</td><td>——</td></tr><tr><td>4</td><td>VCC5V0_SYS</td><td>5V_IN</td><td>核心板 5V 电源输入</td><td>5V</td><td>——</td></tr><tr><td>5</td><td>VCC_3V3</td><td>3V3_OUT</td><td>核心板 3.3V 电源输出</td><td>3.3V</td><td>——</td></tr><tr><td>6</td><td>VCC_3V3</td><td>3V3_OUT</td><td>核心板 3.3V 电源输出</td><td>3.3V</td><td>——</td></tr><tr><td>7</td><td>VCC_1V8</td><td>1V8_OUT</td><td>核心板 1.8V 电源输出</td><td>1.8V</td><td>——</td></tr><tr><td>8</td><td>VCC_1V8</td><td>1V8_OUT</td><td>核心板 1.8V 电源输出</td><td>1.8V</td><td>——</td></tr><tr><td>9</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>10</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>11</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>12</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>13</td><td>RMII1_RXDV_CRS</td><td>RMII1</td><td>RMII1 接收数据有效和载波</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>14</td><td>RMII1_MDIO</td><td>RMII1</td><td>RMII1 数据管理</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>15</td><td>RMII1_MDC</td><td>RMII1</td><td>RMII1 时钟管理</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>16</td><td>RMII1_TXEN</td><td>RMII1</td><td>RMII1 发送使能</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>17</td><td>RMII1_TXD1</td><td>RMII1</td><td>RMII1 发送数据 1</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.089,
+                0.253,
+                0.11
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.497,
+                0.253,
+                0.52
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.037,
+                0.361,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.19,
+                0.908,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.205,
+                0.198,
+                0.222
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.17,
+                0.882,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.442,
+                0.474,
+                0.596,
+                0.487
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.165,
+                0.117,
+                0.908,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.133,
+                0.908,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.15,
+                0.231,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.527,
+                0.898,
+                0.54
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.542,
+                0.905,
+                0.557
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.559,
+                0.792,
+                0.574
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.166,
+                0.577,
+                0.723,
+                0.594
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.083,
+                0.908,
+                0.941
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>18</td><td>RMII1_TXD0</td><td>RMII1</td><td colspan=\"2\">RMII1发送数据0</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>19</td><td>RMII1_CLK</td><td>RMII1</td><td colspan=\"2\">RMII1发送接收时钟</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>20</td><td>RMII1_RXD1</td><td>RMII1</td><td colspan=\"2\">RMII1接收数据1</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>21</td><td>RMII1_RXD0</td><td>RMII1</td><td colspan=\"2\">RMII1接收数据0</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>22</td><td>GND</td><td>GND</td><td colspan=\"2\">系统地</td><td>0V</td><td>——</td></tr><tr><td>23</td><td>RMII0_RXDV_CRS</td><td>RMII0</td><td colspan=\"2\">RMII0接收数据有效和载波</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>24</td><td>RMII0_MDIO</td><td>RMII0</td><td colspan=\"2\">RMII0数据管理</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>25</td><td>RMII0_MDC</td><td>RMII0</td><td colspan=\"2\">RMII0时钟管理</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>26</td><td>RMII0_TXEN</td><td>RMII0</td><td colspan=\"2\">RMII0发送使能</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>27</td><td>RMII0_TXD1</td><td>RMII0</td><td colspan=\"2\">RMII0发送数据1</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>28</td><td>RMII0_TXD0</td><td>RMII0</td><td colspan=\"2\">RMII0发送数据0</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>29</td><td>RMII0_CLK</td><td>RMII0</td><td colspan=\"2\">RMII0发送接收时钟</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>30</td><td>RMII0_RXD1</td><td>RMII0</td><td colspan=\"2\">RMII0接收数据1</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>31</td><td>RMII0_RXD0</td><td>RMII0</td><td colspan=\"2\">RMII0接收数据0</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>32</td><td>GND</td><td>GND</td><td colspan=\"2\">系统地</td><td>0V</td><td>——</td></tr><tr><td>33</td><td>GND</td><td>GND</td><td colspan=\"2\">系统地</td><td>0V</td><td>——</td></tr><tr><td>34</td><td>SDMMC_CLK</td><td>SDIO</td><td>SDIO发送时钟</td><td rowspan=\"6\">核心板Flash为EMMC时,此接口不开放</td><td>3.3V</td><td>串联22R电阻/无上下拉电阻</td></tr><tr><td>35</td><td>SDMMC_CMD</td><td>SDIO</td><td>SDIO发送/接收命令</td><td>3.3V</td><td>直连/上拉10K电阻</td></tr><tr><td>36</td><td>SDMMC_D0</td><td>SDIO</td><td>SDIO发送/接收数据0</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>37</td><td>SDMMC_D1</td><td>SDIO</td><td>SDIO发送/接收数据1</td><td>3.3V</td><td>直连/上拉10K电阻</td></tr><tr><td>38</td><td>SDMMC_D2</td><td>SDIO</td><td>SDIO发送/接收数据2</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>39</td><td>SDMMC_D3</td><td>SDIO</td><td>SDIO发送/接收数据3</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>40</td><td>FSPI_D0</td><td>GPIO</td><td>通用GPIO</td><td rowspan=\"6\">核心板Flash为Nand时,此接口不开放</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>41</td><td>FSPI_D1</td><td>GPIO</td><td>通用GPIO</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>42</td><td>FSPI_D2</td><td>GPIO</td><td>通用GPIO</td><td>3.3V</td><td>直连/上拉10K电阻</td></tr><tr><td>43</td><td>FSPI_D3</td><td>GPIO</td><td>通用GPIO</td><td>3.3V</td><td>直连/上拉10K电阻</td></tr><tr><td>44</td><td>FSPI_CLK</td><td>GPIO</td><td>通用GPIO</td><td>3.3V</td><td>串联22R电阻/无上下拉电阻</td></tr><tr><td>45</td><td>FSPI_CSN</td><td>GPIO</td><td>通用GPIO</td><td>3.3V</td><td>直连/上拉10K电阻</td></tr><tr><td>46</td><td>NPOR_L</td><td>NPOR</td><td colspan=\"2\">系统复位信号</td><td>3.3V</td><td>并联10nF电容/上拉1K电阻</td></tr><tr><td>47</td><td>SARADC_IN1_RECOVER/KEY</td><td>BOOT</td><td colspan=\"2\">Loader烧写模式配置脚</td><td>1.8V</td><td>并联1nF电容/上拉10K电阻</td></tr><tr><td>48</td><td>SARADC_IN0_BOOT</td><td>BOOT</td><td colspan=\"2\">MASKROM烧写模式配置脚</td><td>1.8V</td><td>并联1nF电容/上拉10K电阻</td></tr><tr><td>49</td><td>SARADC_IN2</td><td>ADC</td><td colspan=\"2\">0~1.8V模拟电压输入</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>50</td><td>SARADC_IN3</td><td>ADC</td><td colspan=\"2\">0~1.8V模拟电压输入</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>51</td><td>GPIO0_D0_d</td><td>GPIO</td><td colspan=\"2\">通用GPIO</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>52</td><td>ACODEC_ADC_INP</td><td>MIC</td><td colspan=\"2\">MIC差分信号正输入</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>53</td><td>ACODEC_ADC_INN</td><td>MIC</td><td colspan=\"2\">MIC差分信号负输入</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>54</td><td>GND</td><td>GND</td><td colspan=\"2\">系统地</td><td>0V</td><td>——</td></tr><tr><td>55</td><td>USB20_OTG0_DP</td><td>USB2.0</td><td colspan=\"2\">USB0差分信号正</td><td>——</td><td>直连/无上下拉电阻</td></tr><tr><td>56</td><td>USB20_OTG0_DM</td><td>USB2.0</td><td colspan=\"2\">USB0差分信号负</td><td>——</td><td>直连/无上下拉电阻</td></tr><tr><td>57</td><td>USB20_OTG0_ID</td><td>USB2.0</td><td colspan=\"2\">USB0 OTG 模式检测信号</td><td>1.8V</td><td>直连/上拉200K电阻</td></tr><tr><td>58</td><td>USB20_OTG0_VBUSDET</td><td>USB2.0</td><td colspan=\"2\">USB0 DEVICE 状态检测信号</td><td>3V</td><td>并联100nF电容/无上下拉电阻</td></tr><tr><td>59</td><td>GND</td><td>GND</td><td colspan=\"2\">系统地</td><td>0V</td><td>——</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.946,
+                0.505,
+                0.955
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.495,
+                0.946,
+                0.505,
+                0.955
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.083,
+                0.908,
+                0.933
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>60</td><td>USB20_OTG1_DP</td><td>USB2.0</td><td>USB1差分信号正</td><td>——</td><td>直连/无上下拉电阻</td></tr><tr><td>61</td><td>USB20_OTG1_DM</td><td>USB2.0</td><td>USB1差分信号负</td><td>——</td><td>直连/无上下拉电阻</td></tr><tr><td>62</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>63</td><td>MIPI_DPHY_DSI_TX_CLKN</td><td>MIPI_DSI</td><td>MIPI_DSI差分时钟负</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>64</td><td>MIPI_DPHY_DSI_TX_CLKP</td><td>MIPI_DSI</td><td>MIPI_DSI差分时钟正</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>65</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>66</td><td>MIPI_DPHY_DSI_TX_D1N</td><td>MIPI_DSI</td><td>MIPI_DSI差分数据1负</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>67</td><td>MIPI_DPHY_DSI_TX_D1P</td><td>MIPI_DSI</td><td>MIPI_DSI差分数据1正</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>68</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>69</td><td>MIPI_DPHY_DSI_TX_D0N</td><td>MIPI_DSI</td><td>MIPI_DSI差分数据0负</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>70</td><td>MIPI_DPHY_DSI_TX_D0P</td><td>MIPI_DSI</td><td>MIPI_DSI差分数据0正</td><td>1.8V</td><td>直连/无上下拉电阻</td></tr><tr><td>71</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>72</td><td>VO_LCDC_DEN</td><td>LCD</td><td>RGB数据使能信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>73</td><td>VO_LCDC_VSYNC</td><td>LCD</td><td>RGB垂直同步信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>74</td><td>VO_LCDC_HSYNC</td><td>LCD</td><td>RGB水平同步信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>75</td><td>VO_LCDC_CLK</td><td>LCD</td><td>RGB像素时钟</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>76</td><td>VO_LCDC_D23</td><td>LCD</td><td>RGB红色数据位7</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>77</td><td>VO_LCDC_D22</td><td>LCD</td><td>RGB红色数据位6</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>78</td><td>VO_LCDC_D21</td><td>LCD</td><td>RGB红色数据位5</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>79</td><td>VO_LCDC_D20</td><td>LCD</td><td>RGB红色数据位4</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>80</td><td>VO_LCDC_D19</td><td>LCD</td><td>RGB红色数据位3</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>81</td><td>VO_LCDC_D18</td><td>IIC0</td><td>I2C0数据</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>82</td><td>VO_LCDC_D17</td><td>IIC0</td><td>I2C0时钟</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>83</td><td>VO_LCDC_D16</td><td>GPIO</td><td>运行指示灯</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>84</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>85</td><td>VO_LCDC_D15</td><td>LCD</td><td>RGB绿色数据位7</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>86</td><td>VO_LCDC_D14</td><td>LCD</td><td>RGB绿色数据位6</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>87</td><td>VO_LCDC_D13</td><td>LCD</td><td>RGB绿色数据位5</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>88</td><td>VO_LCDC_D12</td><td>LCD</td><td>RGB绿色数据位4</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>89</td><td>VO_LCDC_D11</td><td>LCD</td><td>RGB绿色数据位3</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>90</td><td>VO_LCDC_D10</td><td>LCD</td><td>RGB绿色数据位2</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>91</td><td>VO_LCDC_D9</td><td>GPIO</td><td>触摸屏中断信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>92</td><td>VO_LCDC_D8</td><td>GPIO</td><td>RGB液晶屏复位信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>93</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>94</td><td>VO_LCDC_D7</td><td>LCD</td><td>RGB蓝色数据位7</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>95</td><td>VO_LCDC_D6</td><td>LCD</td><td>RGB蓝色数据位6</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>96</td><td>VO_LCDC_D5</td><td>LCD</td><td>RGB蓝色数据位5</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>97</td><td>VO_LCDC_D4</td><td>LCD</td><td>RGB蓝色数据位4</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>98</td><td>VO_LCDC_D3</td><td>LCD</td><td>RGB蓝色数据位3</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>99</td><td>VO_LCDC_D2</td><td>PWM</td><td>RGB液晶屏背光控制信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>100</td><td>VO_LCDC_D1</td><td>UART4</td><td>UART4接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>101</td><td>VO_LCDC_D0</td><td>UART4</td><td>UART4发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>102</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>103</td><td>I2C2_SCL</td><td>I2C2</td><td>I2C2时钟</td><td>3.3V</td><td>挂载加密芯片/上拉2.2K电阻</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.496,
+                0.946,
+                0.512,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.945,
+                0.514,
+                0.957
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.13,
+                0.083,
+                0.908,
+                0.572
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>104</td><td>I2C2_SDA</td><td>I2C2</td><td>I2C2 数据</td><td>3.3V</td><td>挂载加密芯片/上拉2.2K电阻</td></tr><tr><td>105</td><td>SAI1_MCLK</td><td>GPIO</td><td>TF 卡插卡检测</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>106</td><td>SAI1_SCLK</td><td>GPIO</td><td>USB HUB 芯片复位信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>107</td><td>SAI1_LRCK</td><td>GPIO</td><td>触摸屏复位信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>108</td><td>SAI1_SDI</td><td>GPIO</td><td>RMII0 复位信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>109</td><td>SAI1_SDO0</td><td>GPIO</td><td>RMII1 复位信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>110</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>111</td><td>UART0_TX/JTAG_TCK_M1</td><td>UART0</td><td>UART0 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>112</td><td>UART0_RX/JTAG_TMS_M1</td><td>UART0</td><td>UART0 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>113</td><td>UART1_TX</td><td>UART1</td><td>UART1 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>114</td><td>UART1_RX</td><td>UART1</td><td>UART1 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>115</td><td>UART2_TX</td><td>UART2</td><td>UART2 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>116</td><td>UART2_RX</td><td>UART2</td><td>UART2 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>117</td><td>UART3_TX</td><td>UART3</td><td>UART3 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>118</td><td>UART3_RX</td><td>UART3</td><td>UART3 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>119</td><td>CAN0_TX</td><td>CAN0</td><td>CAN0 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>120</td><td>CAN0_RX</td><td>CAN0</td><td>CAN0 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>121</td><td>CAN1_TX</td><td>CAN1</td><td>CAN1 发送</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>122</td><td>CAN1_RX</td><td>CAN1</td><td>CAN1 接收</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>123</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr><tr><td>124</td><td>SPI0_CLK</td><td>SPI0</td><td>SPI0 时钟信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>125</td><td>SPI0_MOSI</td><td>SPI0</td><td>SPI0 主发从收信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>126</td><td>SPI0_MISO</td><td>SPI0</td><td>SPI0 主收从发信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>127</td><td>SPI0_CSN0</td><td>SPI0</td><td>SPI0 片选信号</td><td>3.3V</td><td>直连/无上下拉电阻</td></tr><tr><td>128</td><td>GND</td><td>GND</td><td>系统地</td><td>0V</td><td>——</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.496,
+                0.946,
+                0.511,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.945,
+                0.512,
+                0.958
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.36,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.847,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.09,
+                0.251,
+                0.109
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.163,
+                0.118,
+                0.544,
+                0.133
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.306,
+                0.156,
+                0.661,
+                0.395
+            ],
+            "angle": 0,
+            "content": "35MM\nDDR\nHD-RK3506B-CORE V1.0\nOV9\nCPU\n3V3\n1V8\n35MM",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.454,
+                0.403,
+                0.584,
+                0.417
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.945,
+                0.509,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.088,
+                0.253,
+                0.111
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.457,
+                0.404,
+                0.582,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.164,
+                0.118,
+                0.543,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.489,
+                0.944,
+                0.51,
+                0.959
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.359,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.847,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.09,
+                0.251,
+                0.109
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.136,
+                0.853,
+                0.265
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.27,
+                0.854,
+                0.342
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.182,
+                0.348,
+                0.509,
+                0.364
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.946,
+                0.507,
+                0.956
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.126,
+                0.088,
+                0.253,
+                0.112
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.037,
+                0.36,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.491,
+                0.945,
+                0.509,
+                0.957
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.136,
+                0.852,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.156,
+                0.85,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.174,
+                0.852,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.194,
+                0.851,
+                0.207
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.212,
+                0.85,
+                0.225
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.231,
+                0.85,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.249,
+                0.528,
+                0.264
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.27,
+                0.852,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.289,
+                0.851,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.309,
+                0.851,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.327,
+                0.585,
+                0.342
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.348,
+                0.508,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.148,
+                0.037,
+                0.361,
+                0.051
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.775,
+                0.037,
+                0.848,
+                0.05
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.128,
+                0.09,
+                0.251,
+                0.109
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.161,
+                0.361,
+                0.177
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.186,
+                0.774,
+                0.202
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.208,
+                0.341,
+                0.223
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.239,
+                0.383,
+                0.254
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.26,
+                0.401,
+                0.275
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.278,
+                0.374,
+                0.294
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.227,
+                0.861,
+                0.304
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.945,
+                0.508,
+                0.955
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.127,
+                0.087,
+                0.254,
+                0.112
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.037,
+                0.361,
+                0.051
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.162,
+                0.36,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.237,
+                0.383,
+                0.256
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.276,
+                0.375,
+                0.296
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.775,
+                0.036,
+                0.848,
+                0.052
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.49,
+                0.944,
+                0.511,
+                0.958
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.209,
+                0.341,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.185,
+                0.775,
+                0.202
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.257,
+                0.402,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.631,
+                0.223,
+                0.862,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.63,
+                0.265,
+                0.865,
+                0.306
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]
