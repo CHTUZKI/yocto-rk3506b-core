@@ -59,15 +59,19 @@ build/tmp/deploy/images/hd-rk3506b-core/
 
 | 层 | 职责 |
 |----|------|
-| meta-rk3506b-custom | U-Boot SPL、linux-rockchip 6.1、机器配置、WIC 分区 |
+| meta-rk3506b-custom | U-Boot SPL、linux-rockchip 6.6（Rockchip 官方内核）、机器配置、WIC 分区 |
 | meta-rockchip-updateimg | afptool + rkImageMaker → update.img |
 | poky + meta-oe | Yocto 基础 |
 
 ## 启动链
 
+RK3506 使用 U-Boot SPL + FIT，`trust` 已打包进 `uboot.img`：
+
 ```
-loader.bin (SPL) → uboot.img → trust.img → boot.img → rootfs (ext4)
+idblock → uboot.img (含 trust) → boot.img → rootfs (ext4)
 ```
+
+烧录工具使用 `update.img`（由 meta-rockchip-updateimg 生成）。
 
 ## 机器配置
 

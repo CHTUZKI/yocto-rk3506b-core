@@ -14,6 +14,9 @@ INSANE_SKIP:${PN}-src += "buildpaths"
 
 KCONFIG_MODE ?= "--alldefconfig"
 
+# Vendor kernel has no yocto-kernel-cache metadata; avoid hard failures on dangling features
+KERNEL_DANGLING_FEATURES_WARN_ONLY = "1"
+
 # Make sure we use /usr/bin/env ${PYTHON_PN} for scripts
 do_patch:append() {
 	for s in `grep -rIl python ${S}/scripts`; do
@@ -35,7 +38,7 @@ python () {
 
 do_kernel_metadata:prepend() {
 	# Force regenerating defconfig
-	rm -f ${WORKDIR}/defconfig
+	rm -f ${UNPACKDIR}/defconfig
 
 	# Support defconfig fragments
 	cd "${S}/arch/${ARCH}/configs"

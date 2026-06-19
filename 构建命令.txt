@@ -11,19 +11,20 @@ git submodule update --init --recursive
 # ============================================
 # 标准构建
 # ============================================
-unset BB_ENV_EXTRAWHITE
 cd /home/xuning/yocto-rk3506b-core
 source poky/oe-init-build-env build
 bitbake rk3506b-image-minimal-emmc
 
-# 输出
-# tmp/deploy/images/hd-rk3506b-core/update.img
+# 切换到 Rockchip 官方内核/U-Boot 后建议先清理旧 sstate：
+# bitbake linux-rockchip -c cleansstate
+# bitbake linux-libc-headers -c cleansstate
+# bitbake u-boot-rockchip -c cleansstate
+# bitbake glibc -c cleansstate
 
 # ============================================
 # 单独重建 U-Boot
 # ============================================
 # cd /home/xuning/yocto-rk3506b-core
-# unset BB_ENV_EXTRAWHITE
 # source poky/oe-init-build-env build
 # bitbake u-boot-rockchip -c cleansstate
 # bitbake u-boot-rockchip
@@ -32,16 +33,47 @@ bitbake rk3506b-image-minimal-emmc
 # ============================================
 # 单独重建内核
 # ============================================
-# cd /home/xuning/yocto-rk3506b-core
-# unset BB_ENV_EXTRAWHITE
-# source poky/oe-init-build-env build
-# bitbake linux-rockchip -c cleansstate
-# bitbake linux-rockchip
-# bitbake rk3506b-image-minimal-emmc
+cd /home/xuning/yocto-rk3506b-core
+source poky/oe-init-build-env build
+bitbake linux-rockchip -c cleansstate
+bitbake linux-rockchip
+bitbake rk3506b-image-minimal-emmc
 
 # ============================================
 # 清理镜像
 # ============================================
-# cd /home/xuning/yocto-rk3506b-core
-# source poky/oe-init-build-env build
-# bitbake rk3506b-image-minimal-emmc -c clean
+cd /home/xuning/yocto-rk3506b-core
+source poky/oe-init-build-env build
+bitbake rk3506b-image-minimal-emmc -c clean
+
+# ============================================
+# RKDevTool 烧录（HD-RK3506B-CORE eMMC）
+# ============================================
+# 产物：build/tmp/deploy/images/hd-rk3506b-core/update.img
+# 建议复制到 Windows 本地路径（如 C:\rk\update.img），不要用 \\wsl.localhost\...
+#
+# 工具：RKDevTool v3.32 eMMC 版 + DriverAssistant 驱动
+#
+# 【推荐】Loader 模式整包升级：
+#   1. Type-C 接 OTG0 烧录口，PC 用 USB2.0 后置口
+#   2. 按住 RECOVERY → 按 RESET → 约 2 秒后松开 RECOVERY
+#   3. 底部应显示「发现一个 LOADER 设备」
+#   4. 「升级固件」页选 update.img → 升级
+#
+# 【板子只能进 Maskrom 时】先擦除再烧：
+#   1. 底部显示「发现一个 MASKROM 设备」
+#   2. 选 update.img → 点「擦除Flash」→ 再点「升级」
+#   3. 若报「等待Maskrom失败」：换 USB2 口/数据线，重装驱动，Boot 成功后等 USB 重连
+#
+# 注意：update.img 已含 idblock.img（SPL）；不要用旧版缺少 idblock 的包。
+# 芯片标识为 350F（界面可能显示 RK350F），不是 RK35。
+#
+# 烧录成功判据（整包升级）：
+#   - 日志 total 约 2GB+，不是 8961536（8.5MB）
+#   - 必须出现：Start to download rootfs, offset=0x14800, size=2147483648
+#   - 耗时约 1～2 分钟；若 ~1 秒结束说明 rootfs 未写入（旧 parameter 含 :grow）
+#
+# B 款 DDR3L 改 U-Boot 后需重建：
+#   bitbake u-boot-rockchip -c cleansstate && bitbake rk3506b-image-minimal-emmc
+#
+# 串口：ttyFIQ0，波特率 1500000（Rockchip 默认 1.5M，非 115200）

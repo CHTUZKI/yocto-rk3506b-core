@@ -17,11 +17,11 @@ PV = "2017.09"
 
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=a2c678cfd4a4d97135585cad908541c6"
 
-SRCREV = "a93658f8f45dc0266be21840931131b10c325e03"
-SRCREV_rkbin = "c41b714cacd249e3ef69b2bbe774da5095eefd72"
+SRCREV = "${AUTOREV}"
+SRCREV_rkbin = "${AUTOREV}"
 SRC_URI = " \
-	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=u-boot; \
-	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=rkbin;name=rkbin;destsuffix=rkbin; \
+	git://github.com/rockchip-linux/u-boot.git;protocol=https;branch=next-dev \
+	git://github.com/rockchip-linux/rkbin.git;protocol=https;branch=master;name=rkbin;destsuffix=rkbin \
 "
 
 SRCREV_FORMAT = "default_rkbin"
@@ -32,6 +32,9 @@ DEPENDS:append = " ${PYTHON_PN}-native"
 DEPENDS:append = " coreutils-native ${PYTHON_PN}-pyelftools-native"
 
 do_configure:prepend() {
+	# The make.sh requires ../rkbin/ relative to u-boot source tree
+	ln -rsf ${WORKDIR}/rkbin ${S}/../rkbin
+
 	# Make sure we use /usr/bin/env ${PYTHON_PN} for scripts
 	for s in `grep -rIl python ${S}`; do
 		sed -i -e '1s|^#!.*python[23]*|#!/usr/bin/env ${PYTHON_PN}|' $s
@@ -103,6 +106,11 @@ do_deploy:append() {
 	for binary in "${RK_IDBLOCK_IMG}" "${RK_LOADER_BIN}" "${RK_TRUST_IMG}";do
 		[ -f "${binary}" ] || continue
 		install "${binary}" "${DEPLOYDIR}/${binary}-${PV}"
-		ln -sf "${binary}-${PV}" "${DEPLOYDIR}/${binary}"
+		ln -sfn "${binary}-${PV}" "${DEPLOYDIR}/${binary}"
 	done
+
+	# Ensure canonical names expected by RKDevTool / update.img packaging
+	if [ -n "${UBOOT_IMAGE}" ] && [ -f "${DEPLOYDIR}/${UBOOT_IMAGE}" ]; then
+		ln -sf "${UBOOT_IMAGE}" "${DEPLOYDIR}/uboot.img"
+	fi
 }
