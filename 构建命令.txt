@@ -1,5 +1,6 @@
 # HD-RK3506B-CORE 构建命令
 # 架构：meta-rk3506b-custom (BSP) + meta-rockchip-updateimg (update.img)
+# 机器：hd-rk3506b-core | 设备树：rockchip/hd-rk3506b-core.dtb
 # 不使用 meta-rockchip
 
 # ============================================
@@ -9,20 +10,28 @@ cd /home/xuning/yocto-rk3506b-core
 git submodule update --init --recursive
 
 # ============================================
-# 标准构建
+# 标准构建（改软件包 / rootfs / bbappend 后常用）
 # ============================================
 cd /home/xuning/yocto-rk3506b-core
 source poky/oe-init-build-env build
 bitbake rk3506b-image-minimal-emmc
 
-# 切换到 Rockchip 官方内核/U-Boot 后建议先清理旧 sstate：
+# 若当前 shell 已在 build 目录内，用：
+# source ../poky/oe-init-build-env .
+
+# ============================================
+# 切换内核 / U-Boot / 设备树后建议全量清理
+# ============================================
+# cd /home/xuning/yocto-rk3506b-core
+# source poky/oe-init-build-env build
 # bitbake linux-rockchip -c cleansstate
 # bitbake linux-libc-headers -c cleansstate
 # bitbake u-boot-rockchip -c cleansstate
 # bitbake glibc -c cleansstate
+# bitbake rk3506b-image-minimal-emmc
 
 # ============================================
-# 单独重建 U-Boot
+# 单独重建 U-Boot（改 DDR 配置、SPL 等）
 # ============================================
 # cd /home/xuning/yocto-rk3506b-core
 # source poky/oe-init-build-env build
@@ -31,26 +40,43 @@ bitbake rk3506b-image-minimal-emmc
 # bitbake rk3506b-image-minimal-emmc
 
 # ============================================
-# 单独重建内核
+# 单独重建内核（含设备树 hd-rk3506b-core.dtb）
 # ============================================
-cd /home/xuning/yocto-rk3506b-core
-source poky/oe-init-build-env build
-bitbake linux-rockchip -c cleansstate
-bitbake linux-rockchip
-bitbake rk3506b-image-minimal-emmc
+# cd /home/xuning/yocto-rk3506b-core
+# source poky/oe-init-build-env build
+# bitbake linux-rockchip -c cleansstate
+# bitbake linux-rockchip
+# bitbake rk3506b-image-minimal-emmc
+#
+# 设备树源文件：
+#   meta-rk3506b-custom/recipes-kernel/linux/files/hd-rk3506b-core.dts
+#   meta-rk3506b-custom/recipes-kernel/linux/files/hd-rk3506b-core.dtsi
+#   meta-rk3506b-custom/recipes-kernel/linux/linux-rockchip_6.6.bbappend
 
 # ============================================
-# 清理镜像
+# 清理镜像（不清理 sstate，下次编译较快）
 # ============================================
-cd /home/xuning/yocto-rk3506b-core
-source poky/oe-init-build-env build
-bitbake rk3506b-image-minimal-emmc -c clean
+# cd /home/xuning/yocto-rk3506b-core
+# source poky/oe-init-build-env build
+# bitbake rk3506b-image-minimal-emmc -c clean
+
+# ============================================
+# 构建产物
+# ============================================
+# build/tmp/deploy/images/hd-rk3506b-core/
+#   update.img              → RKDevTool 烧录用（符号链接）
+#   rk3506b-image-minimal-emmc-hd-rk3506b-core.update.img
+#   *.rootfs.ext4           → rootfs 分区镜像（固定 2 GiB，实际内容约 40 MB）
+#   boot.img / uboot.img / loader.bin / idblock.img
+#
+# 说明：update.img 约 2.1 GB 是因为 rootfs 分区预分配 2 GiB（RKDevTool 整包
+# 烧录需固定扇区，不能用 :grow）。板子上空闲空间会随使用被占满，并非浪费。
 
 # ============================================
 # RKDevTool 烧录（HD-RK3506B-CORE eMMC）
 # ============================================
-# 产物：build/tmp/deploy/images/hd-rk3506b-core/update.img
-# 建议复制到 Windows 本地路径（如 C:\rk\update.img），不要用 \\wsl.localhost\...
+# 建议复制 update.img 到 Windows 本地路径（如 C:\rk\update.img），
+# 不要用 \\wsl.localhost\...
 #
 # 工具：RKDevTool v3.32 eMMC 版 + DriverAssistant 驱动
 #
@@ -73,7 +99,5 @@ bitbake rk3506b-image-minimal-emmc -c clean
 #   - 必须出现：Start to download rootfs, offset=0x14800, size=2147483648
 #   - 耗时约 1～2 分钟；若 ~1 秒结束说明 rootfs 未写入（旧 parameter 含 :grow）
 #
-# B 款 DDR3L 改 U-Boot 后需重建：
-#   bitbake u-boot-rockchip -c cleansstate && bitbake rk3506b-image-minimal-emmc
-#
 # 串口：ttyFIQ0，波特率 1500000（Rockchip 默认 1.5M，非 115200）
+# 启动后应显示：Machine model: Vanxak HD-RK3506B-CORE
