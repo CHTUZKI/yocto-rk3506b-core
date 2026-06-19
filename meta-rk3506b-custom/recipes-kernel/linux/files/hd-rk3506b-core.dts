@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Vanxak HD-RK3506B-CORE module (512MB DDR3L + 8GB eMMC)
+ *
+ * Top-level device tree. Board details live in hd-rk3506b-core.dtsi.
+ */
+
+/dts-v1/;
+
+#include "rk3506.dtsi"
+#include "hd-rk3506b-core.dtsi"
+
+/ {
+	model = "Vanxak HD-RK3506B-CORE";
+	compatible = "vanxak,hd-rk3506b-core", "rockchip,rk3506";
+};

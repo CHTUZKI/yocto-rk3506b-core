@@ -1,0 +1,260 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Vanxak HD-RK3506B-CORE — minimal on-module peripherals only:
+ *   - DDR3L (512MB, initialized by SPL/ATF)
+ *   - eMMC (8GB, same SDMMC controller as EVB)
+ *   - I2C2 + license EEPROM (on-module, disabled in DT — not needed for boot)
+ *   - fiq-debugger serial console (UART0 / ttyFIQ0)
+ *
+ * No carrier-board peripherals (Ethernet, LCD, audio, Wi-Fi, etc.).
+ */
+
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/pinctrl/rockchip.h>
+
+/ {
+	chosen {
+		bootargs = "earlycon=uart8250,mmio32,0xff0a0000 console=ttyFIQ0,1500000n8 root=PARTUUID=614e0000-0000-4b53-8000-1d28000054a9 rootfstype=ext4 rw rootwait";
+	};
+
+	aliases {
+		mmc0 = &mmc;
+	};
+
+	fiq_debugger: fiq-debugger {
+		compatible = "rockchip,fiq-debugger";
+		rockchip,serial-id = <0>;
+		rockchip,wake-irq = <0>;
+		rockchip,irq-mode-enable = <1>;
+		rockchip,baudrate = <1500000>;
+		interrupts = <GIC_SPI 115 IRQ_TYPE_LEVEL_HIGH>;
+	};
+
+	/* Module 5V input → on-board power rails (no external PMIC on carrier). */
+	vcc5v0_sys: vcc5v0-sys {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc5v0_sys";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <5000000>;
+		regulator-max-microvolt = <5000000>;
+	};
+
+	vcc_3v3: vcc-3v3 {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_3v3";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		vin-supply = <&vcc5v0_sys>;
+	};
+
+	vcc_1v8: vcc-1v8 {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_1v8";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <1800000>;
+		regulator-max-microvolt = <1800000>;
+		vin-supply = <&vcc5v0_sys>;
+	};
+
+	vcc_ddr: vcc-ddr {
+		compatible = "regulator-fixed";
+		regulator-name = "vcc_ddr";
+		regulator-always-on;
+		regulator-boot-on;
+		vin-supply = <&vcc5v0_sys>;
+	};
+
+	vdd_arm: vdd-arm {
+		compatible = "regulator-fixed";
+		regulator-name = "vdd_arm";
+		regulator-always-on;
+		regulator-boot-on;
+		regulator-min-microvolt = <1011000>;
+		regulator-max-microvolt = <1011000>;
+		vin-supply = <&vcc5v0_sys>;
+	};
+};
+
+&cpu0 {
+	cpu-supply = <&vdd_arm>;
+};
+
+&cma {
+	size = <0x800000>;
+};
+
+&mmc {
+	/* HD-RK3506B-512F8GLW: on-module eMMC, SD/MMC socket not populated. */
+	bus-width = <4>;
+	cap-mmc-highspeed;
+	mmc-hs200-1.8v;
+	no-sd;
+	no-sdio;
+	non-removable;
+	pinctrl-names = "default";
+	pinctrl-0 = <&sdmmc_clk_pins &sdmmc_cmd_pins &sdmmc_bus4_pins>;
+	status = "okay";
+};
+
+/*
+ * On-module license / ID EEPROM (I2C2, data sheet pins 103-104).
+ * Not required for boot — leave disabled until userspace or vendor tools need it.
+ */
+&i2c2 {
+	clock-frequency = <400000>;
+	pinctrl-names = "default";
+	pinctrl-0 = <&rm_io4_i2c2_scl &rm_io5_i2c2_sda>;
+	status = "disabled";
+
+	/* eeprom@50 {
+	 *	compatible = "atmel,24c08";
+	 *	reg = <0x50>;
+	 *	pagesize = <16>;
+	 *	size = <8192>;
+	 * };
+	 */
+};
+
+/* SoC USB OTG0 — available on module connector, used for Maskrom/Loader upgrade. */
+&u2phy_otg0 {
+	status = "okay";
+};
+
+&usb2phy {
+	status = "okay";
+};
+
+&usb20_otg0 {
+	dr_mode = "peripheral";
+	status = "okay";
+};
+
+&rng {
+	status = "okay";
+};
+
+/* --- Explicitly off: no carrier-board peripherals --- */
+
+&audio_codec {
+	status = "disabled";
+};
+
+&can0 {
+	status = "disabled";
+};
+
+&can1 {
+	status = "disabled";
+};
+
+&display_subsystem {
+	status = "disabled";
+};
+
+&dsi {
+	status = "disabled";
+};
+
+&dsi_dphy {
+	status = "disabled";
+};
+
+&dsi_in_vop {
+	status = "disabled";
+};
+
+&fspi {
+	status = "disabled";
+};
+
+&gmac0 {
+	status = "disabled";
+};
+
+&gmac1 {
+	status = "disabled";
+};
+
+&flexbus_fspi {
+	status = "disabled";
+};
+
+&dsmc {
+	status = "disabled";
+};
+
+&dsmc_lb_slave {
+	status = "disabled";
+};
+
+&route_dsi {
+	status = "disabled";
+};
+
+&route_rgb {
+	status = "disabled";
+};
+
+&rgb {
+	status = "disabled";
+};
+
+&rga2 {
+	status = "disabled";
+};
+
+&sai1 {
+	status = "disabled";
+};
+
+&sai2 {
+	status = "disabled";
+};
+
+&sai3 {
+	status = "disabled";
+};
+
+&sai4 {
+	status = "disabled";
+};
+
+&saradc {
+	status = "disabled";
+};
+
+&u2phy_otg1 {
+	status = "disabled";
+};
+
+&usb20_otg1 {
+	status = "disabled";
+};
+
+&vop {
+	status = "disabled";
+};
+
+&uart1 {
+	status = "disabled";
+};
+
+&uart2 {
+	status = "disabled";
+};
+
+&uart3 {
+	status = "disabled";
+};
+
+&uart4 {
+	status = "disabled";
+};
+
+&uart5 {
+	status = "disabled";
+};
